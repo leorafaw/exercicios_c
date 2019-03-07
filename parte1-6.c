@@ -4,9 +4,9 @@ main()
 {
     float numero1, numero2, divisao;
     printf("Digite um número: ");
-    scanf("%f", numero1);
+    scanf("%f", &numero1);
     printf("\nDigite outro número: ");
-    scanf("%f", numero2);
+    scanf("%f", &numero2);
 
     divisao = numero1/numero2;
 

@@ -5,7 +5,7 @@ main()
     float numero, umTerco;
 
     printf("Informe um número: ");
-    scanf("%f", numero);
+    scanf("%f", &numero);
 
     umTerco = numero/3;
 

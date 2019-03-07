@@ -4,13 +4,15 @@ main()
 {
     float base, altura, area, perimetro;
     printf("Digite a base do retangulo: ");
-    scanf("%f", base);
+    scanf("%f", &base);
     printf("\nDigite a altura desse retangulo: ");
-    scanf("%f", altura);
+    scanf("%f", &altura);
 
-    soma = numero1+numero2;
+    area = base*altura;
+    perimetro = (2*altura)+(2*base);
 
-    printf("Soma dos dois números: %f", soma);
+    printf("Area do retangulo: %f", area);
+    printf("\nPerimetro do retangulo %f", area);
 
     return 0;
 }
