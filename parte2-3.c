@@ -8,7 +8,7 @@ main()
     float preco, precoTotal, comissao, quantidade;
 
     printf("Informe o nome do vendedor: ");
-    scanf(" %s", &nome);
+    scanf("%s", &nome);
     printf("Informe o codigo do produto: ");
     scanf("%d", &codigo);
     printf("Informe a quantidade vendida: ");
