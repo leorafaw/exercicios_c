@@ -12,7 +12,7 @@ main()
     perimetro = (2*altura)+(2*base);
 
     printf("Area do retangulo: %f", area);
-    printf("\nPerimetro do retangulo %f", area);
+    printf("\nPerimetro do retangulo %f", perimetro);
 
     return 0;
 }
