@@ -15,5 +15,7 @@ main()
 
     printf("Custo para o comprador: %2.f", custoC);
 
+    oiasdasd
+
     return 0;
 }
